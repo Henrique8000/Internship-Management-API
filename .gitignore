@@ -1,0 +1,127 @@
+# ===============================
+
+# Compilados Java
+
+# ===============================
+
+*.class
+
+# ===============================
+
+# Logs
+
+# ===============================
+
+*.log
+
+# ===============================
+
+# Arquivos de pacote
+
+# ===============================
+
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ===============================
+
+# Maven
+
+# ===============================
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Wrapper
+
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# ===============================
+
+# Spring Boot
+
+# ===============================
+
+*.pid
+*.seed
+*.pid.lock
+
+# ===============================
+
+# Eclipse / STS
+
+# ===============================
+
+.project
+.classpath
+.settings/
+.springBeans
+.sts4-cache/
+
+# ===============================
+
+# IDEs (opcional, mas recomendado)
+
+# ===============================
+
+# IntelliJ
+
+.idea/
+*.iml
+
+# VS Code
+
+.vscode/
+
+# ===============================
+
+# Sistema Operacional
+
+# ===============================
+
+# Windows
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Mac
+
+.DS_Store
+
+# Linux
+
+*~
+
+# ===============================
+
+# Arquivos temporários
+
+# ===============================
+
+*.tmp
+*.swp
+*.swo
+
+# ===============================
+
+# Testes / cobertura
+
+# ===============================
+
+/coverage/
+/jacoco.exec
+
+# ===============================
+
+# Banco em memória (H2)
+
+# ===============================
+
+*.mv.db
+*.trace.db
