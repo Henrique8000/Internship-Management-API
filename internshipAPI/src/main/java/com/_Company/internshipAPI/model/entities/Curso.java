@@ -1,13 +1,16 @@
-package com._Company.internshipAPI.model;
+package com._Company.internshipAPI.model.entities;
+
 import lombok.*;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.*;
 
 @Entity
+@Table(name="curso")
 @Getter
 @NoArgsConstructor
-
-public class AreaInteresse {
+@AllArgsConstructor
+public class Curso {
+	
     @Id
     @GeneratedValue
     private Long id;
@@ -16,5 +19,4 @@ public class AreaInteresse {
     @NotBlank
     @Size(max = 120)
     private String nome;
-
 }
